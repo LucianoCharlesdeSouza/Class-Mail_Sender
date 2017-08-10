@@ -5,17 +5,13 @@
 <br />
 
 <pre>
-<html>
-<body>
    <form method="POST" action="enviar_email.php">
-        <input type="text" name="nome" />
-        <input type="email" name="email" />
-        <input type="text" name="assunto" />
+        <input type="text" name="nome">
+        <input type="email" name="email">
+        <input type="text" name="assunto">
         <textarea name="msg"></textarea>
-        <input type="submit" name="enviar" value="Enviar E-mail" />
+        <input type="submit" name="enviar" value="Enviar E-mail">
     </form>
-    </body>
-    </html>
 </pre>
 <strong>enviar_email.php</strong>
 
