@@ -3,14 +3,21 @@ Classe de envio de e-mail usando a função nativa mail.
 
 Exemplo de Uso:
 
-Formulário de Envio
+Formulário de Envio:
 
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+<body>
 <form method="POST" action="enviar.php">
             <input type="text" name="nome" placeholder="Seu nome...">
             <input type="email" name="email" placeholder="Seu emai...">
             <textarea name="msg" placeholder="Deixe uma mensagem..."></textarea>
             <button type="submit">Enviar</button>
 </form>
+</body>
+</html>
 
 Arquivo enviar.php
 
