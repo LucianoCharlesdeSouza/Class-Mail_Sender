@@ -2,7 +2,6 @@
 #Classe de envio de e-mail usando a função nativa mail.
 <br />
 <strong>Exemplo:</strong>
-
 <br />
 <strong>enviar_email.php</strong>
 <br />
