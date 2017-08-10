@@ -3,6 +3,7 @@
 <br />
 <strong>Exemplo:</strong>
 <br />
+<?php
    <form method="POST" action="enviar_email.php">
         <input type="text" name="nome">
         <input type="email" name="email">
@@ -10,6 +11,7 @@
         <textarea name="msg"></textarea>
         <input type="submit" name="enviar" value="Enviar E-mail">
     </form>
+    ?>
 <br />
 <strong>enviar_email.php</strong>
 
