@@ -6,6 +6,7 @@
 <strong>enviar_email.php</strong>
 <br />
 
+        require "Mail_Sender.php";
         $dados_form = filter_input_array(INPUT_POST, FILTER_DEFAULT);
         if (isset($dados_form['nome'])):
             if (!in_array("", $dados_form)):
