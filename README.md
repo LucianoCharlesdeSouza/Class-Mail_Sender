@@ -6,10 +6,10 @@ Exemplo de Uso:
 Formulário de Envio
 
 <form method="POST" action="enviar.php">
-            <input type="text" name="nome" class="form-control" id="nome" placeholder="Seu nome...">
-            <input type="email" name="email" class="form-control" id="email" placeholder="Seu emai...">
-            <textarea name="msg" id="pwd" class="form-control" placeholder="Deixe uma mensagem..."></textarea>
-            <button type="submit" class="btn btn-success form-control">Enviar</button>
+            <input type="text" name="nome" placeholder="Seu nome...">
+            <input type="email" name="email" placeholder="Seu emai...">
+            <textarea name="msg" placeholder="Deixe uma mensagem..."></textarea>
+            <button type="submit">Enviar</button>
 </form>
 
 Arquivo enviar.php
