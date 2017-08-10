@@ -1,8 +1,18 @@
 # Class-Mail_Sender
 #Classe de envio de e-mail usando a função nativa mail.
 <br />
-Apenas faça um form com dois input type text com names <strong>nome</strong> e <strong>email</strong>
-e um textarea com name <strong>msg</strong>
+<strong>Exemplo:</strong>
+<br />
+<pre>
+<form method="POST" action="enviar_email.php">
+        <input type="text" name="nome" />
+        <input type="email" name="email" />
+        <input type="text" name="assunto" />
+        <textarea name="msg"></textarea>
+        <input type="submit" name="enviar" value="Enviar E-mail" />
+</pre>
+
+<strong>enviar_email.php</strong>
 
         $dados_form = filter_input_array(INPUT_POST, FILTER_DEFAULT);
         if (isset($dados_form['nome'])):
@@ -11,8 +21,7 @@ e um textarea com name <strong>msg</strong>
                 $email->setDe("contato@realtrueweb.com.br");
                 $email->setPara([$dados_form['email']]);
                 $email->setResponderPara(["souzacomprog@gmail.com"]);
-                $email->setAssunto("Valeu {$dados_form['nome']}"
-                        . " por ter entrado em contato com a gente!");
+                $email->setAssunto($dados_form['assunto']);
 
                 $mensagem = "<img src='" . BASE . "assets/img/capa-min.png' alt='Capa do Canal' title='Capa do Canal' /><br />"
                         . "O email recebido foi de: <strong>{$dados_form['email']}</strong><br />"
