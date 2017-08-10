@@ -1,7 +1,8 @@
 # Class-Mail_Sender
 #Classe de envio de e-mail usando a função nativa mail.
-Apenas faça um form com dois input type text com names nome e email
-e um textarea com name msg
+<br />
+Apenas faça um form com dois input type text com names <strong>nome</strong> e <strong>email</strong>
+e um textarea com name <strong>msg</strong>
 
         $dados_form = filter_input_array(INPUT_POST, FILTER_DEFAULT);
         if (isset($dados_form['nome'])):
