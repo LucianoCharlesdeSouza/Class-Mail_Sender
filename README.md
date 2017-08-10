@@ -3,7 +3,7 @@ Classe de envio de e-mail usando a função nativa mail.
 
 Exemplo de Uso:
 
-Formulário de Envio:
+arquivo index.php
 
 <!DOCTYPE HTML>
 <html>
@@ -18,6 +18,8 @@ Formulário de Envio:
 </form>
 </body>
 </html>
+
+
 
 Arquivo enviar.php
 
