@@ -1,5 +1,5 @@
 # Class-Mail_Sender
-Classe de envio de e-mail usando a função nativa mail.
+#Classe de envio de e-mail usando a função nativa mail.
 Apenas faça um form com dois input type text com names nome e email
 e um textarea com name msg
 
