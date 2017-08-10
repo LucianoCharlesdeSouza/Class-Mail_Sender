@@ -10,6 +10,7 @@
         <textarea name="msg"></textarea>
         <input type="submit" name="enviar" value="Enviar E-mail">
     </form>
+<br />
 <strong>enviar_email.php</strong>
 
         $dados_form = filter_input_array(INPUT_POST, FILTER_DEFAULT);
