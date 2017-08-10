@@ -3,6 +3,8 @@ Classe de envio de e-mail usando a função nativa mail.
 
 Exemplo de Uso:
 
+
+
 arquivo index.php
 
 <!DOCTYPE HTML>
@@ -19,10 +21,7 @@ arquivo index.php
 </body>
 </html>
 
-
-
 Arquivo enviar.php
-
         $dados_form = filter_input_array(INPUT_POST, FILTER_DEFAULT);
         if (isset($dados_form['nome'])):
             if (!in_array("", $dados_form)):
