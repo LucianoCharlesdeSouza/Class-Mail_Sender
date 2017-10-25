@@ -36,6 +36,6 @@
                 endif;
 
             else:
-                $data['msg'] = "Preencha todos os campos!";
+                echo = "Preencha todos os campos!";
             endif;
         endif;
