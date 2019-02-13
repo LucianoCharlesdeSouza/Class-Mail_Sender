@@ -6,6 +6,7 @@
 <strong>enviar_email.php</strong>
 <br />
 
+```php
         require "Mail_Sender.php";
         $dados_form = filter_input_array(INPUT_POST, FILTER_DEFAULT);
         if (isset($dados_form['nome'])):
@@ -39,3 +40,4 @@
                 echo = "Preencha todos os campos!";
             endif;
         endif;
+```
